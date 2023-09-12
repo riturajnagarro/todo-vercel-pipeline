@@ -1,4 +1,4 @@
-name: Validate Build
+name: Validating Build Steps
 on:
   push:
     branches:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   tests:
-    name: Playwright tests
+    name: Start Validating
     timeout-minutes: 5
     runs-on: ubuntu-latest
 
