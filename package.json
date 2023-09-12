@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "npm install -D @playwright/test && npm run format && npm run lint &&  npm run test && vite build",
+		"build": "npm install @playwright/test && npm run format && npm run lint &&  npm run test && vite build",
 		"preview": "vite preview",
 		"test": "npm run test:integration && npm run test:unit",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
