@@ -34,7 +34,7 @@ jobs:
       - name: Run Integration Tests
         run: npm run test:integration
 
-      - name: run Lighthouse CI
+      - name: Run Page Performance
         run: |
           npm install -g @lhci/cli@0.12.x
           lhci autorun --upload.target=temporary-public-storage || echo "LHCI failed!"
