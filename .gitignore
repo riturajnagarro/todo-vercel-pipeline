@@ -14,3 +14,4 @@ vite.config.ts.timestamp-*
 lighthouse-reports.report.*
 lighthouse-check.js
 playwright-report
+.lighthouseci
