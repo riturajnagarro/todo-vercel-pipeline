@@ -1,8 +1,0 @@
-{
-    "build": {
-        "env": {
-            // Your environment variables
-        },
-        "command": "npm run build"
-    }
-}
